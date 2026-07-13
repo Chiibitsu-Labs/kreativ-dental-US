@@ -1,0 +1,28 @@
+# Never commit secrets or local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Never commit patient or private source material
+raw/
+private/
+patient-data/
+medical-records/
+x-rays/
+clinical-images/
+email-exports/
+chat-exports/
+recordings/
+transcripts/raw/
+*.eml
+*.mbox
+*.msg
+
+# Local working files
+.DS_Store
+tmp/
+scratch/
+exports/
+*.log
