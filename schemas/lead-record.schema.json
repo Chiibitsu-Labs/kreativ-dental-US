@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chiibitsu.com/schemas/kreativ-dental-us-lead-record.schema.json",
+  "title": "Kreativ Dental US Operational Lead Record",
+  "description": "Non-clinical relationship and workflow record. Medical files and detailed medical data are prohibited.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "lead_id",
+    "created_at",
+    "source_agent",
+    "source_channel",
+    "patient_state",
+    "territory_status",
+    "stage",
+    "consent_to_introduce",
+    "next_action"
+  ],
+  "properties": {
+    "lead_id": { "type": "string", "pattern": "^KDUS-[0-9]{4}-[0-9]{4,}$" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "name": { "type": "string", "maxLength": 200 },
+    "preferred_contact": { "type": "string", "maxLength": 320 },
+    "patient_state": { "type": "string", "minLength": 2, "maxLength": 50 },
+    "source_agent": { "type": "string", "const": "David Lee" },
+    "source_channel": {
+      "type": "string",
+      "enum": ["personal_referral", "facebook", "website", "community", "event", "media", "partner", "other"]
+    },
+    "territory_status": {
+      "type": "string",
+      "enum": ["IN_TERRITORY", "OUT_OF_TERRITORY", "UNKNOWN"]
+    },
+    "territory_owner": { "type": ["string", "null"], "maxLength": 200 },
+    "need_category": {
+      "type": "string",
+      "enum": ["significant_quote", "restorative", "implants", "crowns_bridges", "dentures", "wisdom_teeth", "anxiety", "general", "unknown"]
+    },
+    "situation_summary": { "type": "string", "maxLength": 1000 },
+    "desired_result": { "type": "string", "maxLength": 500 },
+    "local_quote_band": { "type": ["string", "null"], "maxLength": 100 },
+    "travel_openness": { "type": "string", "enum": ["YES", "MAYBE", "NO", "UNKNOWN"] },
+    "travel_timing": { "type": ["string", "null"], "maxLength": 200 },
+    "records_available": { "type": "string", "enum": ["YES", "NO", "UNKNOWN"] },
+    "records_sent_to_official_channel": { "type": "boolean", "default": false },
+    "consent_to_introduce": { "type": "string", "enum": ["YES", "NO", "NOT_ASKED"] },
+    "consent_recorded_at": { "type": ["string", "null"], "format": "date-time" },
+    "stage": {
+      "type": "string",
+      "enum": ["NEW", "CONTACTED", "INTERESTED", "QUALIFIED", "HANDOFF_READY", "HANDOFF_SENT", "ACKNOWLEDGED", "RECORDS_REQUESTED", "CLINIC_REVIEW", "CONSULTATION_OFFERED", "BOOKED", "TRAVELLING", "TREATMENT_STARTED", "COMPLETED", "NURTURE", "CLOSED_LOST", "ATTRIBUTION_REVIEW"]
+    },
+    "priority": { "type": "string", "enum": ["HIGH", "MEDIUM", "NURTURE"] },
+    "next_action": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "next_action_due_at": { "type": ["string", "null"], "format": "date-time" },
+    "handoff_at": { "type": ["string", "null"], "format": "date-time" },
+    "handoff_recipient": { "type": ["string", "null"], "maxLength": 320 },
+    "attribution_acknowledged_at": { "type": ["string", "null"], "format": "date-time" },
+    "external_crm_id": { "type": ["string", "null"], "maxLength": 200 },
+    "commission_status": {
+      "type": "string",
+      "enum": ["UNKNOWN", "PENDING", "ELIGIBLE", "PAID", "DISPUTED", "NOT_ELIGIBLE"]
+    },
+    "non_clinical_notes": { "type": "string", "maxLength": 2000 }
+  },
+  "allOf": [
+    {
+      "not": {
+        "required": ["medical_records"]
+      }
+    },
+    {
+      "not": {
+        "required": ["x_rays"]
+      }
+    },
+    {
+      "not": {
+        "required": ["clinical_images"]
+      }
+    }
+  ]
+}
