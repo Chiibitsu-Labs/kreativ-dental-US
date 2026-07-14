@@ -52,6 +52,19 @@ Do not store:
 - passport, payment-card, banking, or insurance documents;
 - unnecessary family or personal details.
 
+## Confirmed qualified-lead handoff fields
+
+Craig and Bronwyn require:
+
+- full name;
+- email address;
+- telephone number;
+- city and state of residence;
+- a brief explanation of the dental concern or treatment need;
+- any available X-rays, photographs, or existing treatment plans.
+
+Obtain consent before sharing identifying information. Have the patient send clinical files directly through the official USA email thread; Mission Control stores only availability/sent flags and dates.
+
 ## Qualification output
 
 After a conversation, produce:

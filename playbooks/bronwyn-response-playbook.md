@@ -1,6 +1,6 @@
 # Bronwyn-Style Response Playbook
 
-This playbook is distilled from supplied examples of successful USA patient correspondence. It captures the method, not patient-identifying content.
+This playbook is distilled from supplied examples of successful USA patient correspondence. It captures the method, not patient-identifying content. See [Winning Response Patterns](winning-response-patterns.md) for the observed pattern-to-practice analysis and response scorecard.
 
 ## What makes the responses work
 
@@ -68,7 +68,9 @@ Answer confirmed general questions from the KB. Do not pad the message with unre
 - saying a procedure will work;
 - implying Budapest is the only sensible choice;
 - attacking Mexico, Turkey, another clinic, or a local dentist;
-- publishing an unconfirmed promotion;
+- omitting the USD $3,000 minimum or other required conditions when mentioning the approved USA offer;
+- bundling consultation, diagnostic X-ray, transfers, breakfast, or shuttles into the three-night/airfare promotion;
+- inventing offer terms that Craig and Bronwyn did not confirm;
 - long generic paragraphs that ignore the person's actual question.
 
 ## Quality check
@@ -78,6 +80,6 @@ Before sending, confirm:
 - every question was answered or explicitly routed;
 - no clinical claim or promise slipped in;
 - the next step is obvious;
-- no unconfirmed offer or public claim appears;
+- any offer uses the exact confirmed benefits and conditions;
 - the message sounds like a person, not a brochure;
 - sensitive attachments are routed to the official USA inbox.

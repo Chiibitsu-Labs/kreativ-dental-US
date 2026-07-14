@@ -1,12 +1,23 @@
 # David's Quick Answers
 
-## Where should a patient send X-rays or records?
+## Where should a patient send X-rays, photographs, or treatment plans?
 
-Directly to `usa@kreativdentalclinic.eu`. David can remain copied with the patient's consent. Do not save the attachments in Mission Control, GitHub, or a general AI project.
+Directly to Craig and Bronwyn through `usa@kreativdentalclinic.eu`, preferably in the consented introduction thread. David can remain copied when the patient is comfortable with this. Do not save the attachments in Mission Control, GitHub, or a general AI project.
+
+## What information do Craig and Bronwyn need for a qualified lead?
+
+- full name;
+- email address;
+- telephone number;
+- city and state of residence;
+- a brief explanation of the dental concern or treatment need;
+- any available X-rays, photographs, or existing treatment plans, sent directly by the patient through the official USA channel.
+
+Obtain consent before sending identifying information. Keep only the minimum relationship and workflow data in Mission Control.
 
 ## When should I bring in Bronwyn and Craig?
 
-When the person is genuinely interested, wants to send records, asks treatment-specific questions, wants detailed price/timing, wants to book, or lives outside Texas, Ohio, or Indiana.
+When the person is qualified or genuinely interested, wants to send records, asks treatment-specific questions, wants detailed price/timing, wants to book, or lives outside Texas, Ohio, or Indiana. Send qualified leads to Craig and Bronwyn; they enter the patient into the clinic CRM and coordinate with Budapest.
 
 ## What should I ask first?
 
@@ -24,17 +35,26 @@ You may explain confirmed published general prices. Exact treatment and cost req
 
 No. Some treatment can be completed in one visit; implants, healing, laboratory work, or complex restoration may require stages.
 
-## What is the current US promotion?
+## What is the current approved USA patient offer?
 
-It is not yet safe to publish. Supplied materials conflict between one free hotel night and three nights plus a $350 airfare rebate. Say you will confirm the current offer and conditions.
+For qualifying USA patients whose treatment costs are **USD $3,000 or more**, the approved offer is:
+
+- three complimentary nights at the clinic's partner hotel; and
+- a USD $350 airfare rebate.
+
+The patient must complete treatment through Kreativ Dental. The hotel stay is subject to availability and applicable booking conditions. Treatment below USD $3,000 does not qualify. The complimentary consultation and diagnostic X-ray are separate from the offer.
+
+Do not add airport transfers, breakfast, shuttles, dates, upgrades, reimbursement timing, or other terms without separate current confirmation.
 
 ## What happens to a lead from another state?
 
-Help them normally and introduce them to the USA team. Mission Control keeps David as the source agent and marks the lead out of territory. The USA team assigns territorial ownership. Do not promise commission until the rule is confirmed.
+Help the person normally and send the qualified lead to Craig and Bronwyn for clinic CRM entry. Keep David recorded as the original source. They confirmed that David receives credit even outside his territory. An established agent in that state may trigger the existing out-of-territory commission-sharing arrangement.
+
+Bronwyn's earlier July 13 clarification stated that David receives 5% from out-of-state dental patients. The later July 14 email confirms source credit and possible sharing but does not restate the percentage. Record 5% as the latest specific written rate while leaving its calculation, applicability, split, and payment timing pending documentation.
 
 ## Should I stay copied after handoff?
 
-Yes, on non-clinical relationship and progress updates when the patient consents. The patient may choose private communication with the USA or clinic team.
+Yes. Craig and Bronwyn confirmed that David should remain involved with patients he introduces. They will manage clinic coordination and keep him informed of meaningful developments. He may remain copied on relevant communication when appropriate and when the patient is comfortable with this.
 
 ## What if I do not know?
 
@@ -48,4 +68,4 @@ No individual regional ad budget is currently allocated. The newest direct instr
 
 ## What is our content cadence?
 
-Four useful, human, or enjoyable posts plus one promotional/invitation post each publishing week. Adapt the content to Texas, Ohio, and Indiana performance; the cadence is a working strategy, not a restriction.
+Four useful, human, or enjoyable posts plus one promotional post each publishing week. Adapt the content to Texas, Ohio, and Indiana performance; the cadence is a working strategy, not a restriction.

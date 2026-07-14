@@ -20,10 +20,10 @@
 
 ## Parallel clinic questions
 
-- [ ] Confirm current USA offer and conditions.
-- [ ] Obtain external CRM fields and source-agent tagging rule.
-- [ ] Confirm out-of-state attribution and commission mechanics.
-- [ ] Confirm the best post-handoff status-sync method.
+- [ ] Confirm how clinic CRM entry is acknowledged, how David is tagged, and whether an external ID is returned.
+- [ ] Document when the 5% rate applies versus another out-of-territory split, plus calculation and payment mechanics.
+- [ ] Agree the best post-handoff status-sync method and update timing.
+- [ ] Obtain partner-hotel booking and airfare-rebate implementation details.
 - [ ] Obtain final state website, Facebook, email, and phone assets.
 
 ## Immediate proof of value

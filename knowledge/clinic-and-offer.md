@@ -26,7 +26,7 @@ Use email for records and clinical-review requests. The phone line is a coordina
 
 ## Current advertising direction
 
-`CONFIRMED` by the July 12 direct email.
+`CONFIRMED` by the July 12, 2026 direct email.
 
 - David does not currently have an individual regional advertising budget.
 - Available clinic marketing funds are being directed toward a coordinated Facebook campaign.
@@ -34,29 +34,32 @@ Use email for records and clinical-review requests. The phone line is a coordina
 
 This newer instruction overrides the earlier general marketing guide that described clinic payment for preapproved local advertising.
 
-## Current patient offer
+## Current approved USA patient offer
 
-`CONFLICT - DO NOT PUBLISH YET`
+`CONFIRMED` by Bronwyn and Craig's July 14, 2026 direct written clarification.
 
-Supplied materials disagree:
+For qualifying USA patients whose treatment costs are **USD $3,000 or more**, the approved promotional offer is:
 
-- the agent marketing guide describes three free nights of accommodation plus a $350 airfare rebate and other support, subject to conditions;
-- another promotional asset describes one free hotel night.
+- **three complimentary hotel nights**; and
+- **a USD $350 airfare rebate**.
 
-Before publishing, obtain one written approved offer containing:
+Conditions stated in the clarification:
 
-- exact benefit;
-- qualifying treatment amount or plan;
-- booking and travel dates;
-- availability limits;
-- hotel conditions;
-- airfare-rebate conditions;
-- who approves exceptions;
-- required disclaimer.
+- the patient must meet the USD $3,000 treatment threshold;
+- the patient must complete the treatment through Kreativ Dental;
+- the hotel stay must be arranged through the clinic's partner hotel;
+- the hotel stay is subject to availability and applicable booking conditions;
+- treatment below USD $3,000 does not qualify for the three hotel nights or airfare rebate.
 
-Until then, say:
+The complimentary consultation and diagnostic X-ray are **separate from this promotional offer**.
 
-> There may be support available for qualifying US patients. I can confirm the current offer and conditions for you.
+Do not bundle airport transfers, breakfast, hotel-to-clinic shuttles, or other support into the public offer unless Bronwyn/Craig confirms their current conditions separately. An earlier July 13 message described those services as complimentary, but the later formal clarification defines the approved promotion only as the hotel nights and airfare rebate.
+
+Do not invent an expiry date, booking window, reimbursement timing, stacking rule, upgrade, cash alternative, availability promise, or exception.
+
+Safe public wording:
+
+> For qualifying USA patients whose treatment costs are USD $3,000 or more, the current approved offer includes three complimentary nights at the clinic's partner hotel and a USD $350 airfare rebate. The patient must complete treatment through Kreativ Dental, and the hotel stay is subject to availability and applicable booking conditions. The complimentary consultation and diagnostic X-ray are separate from this offer. Treatment suitability, plan, and final cost are confirmed by the dental team.
 
 ## Pricing and treatment plans
 

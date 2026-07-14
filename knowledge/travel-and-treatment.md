@@ -21,7 +21,7 @@
 - a final price based only on a US quote or an image;
 - pain-free treatment;
 - a particular outcome or success rate;
-- free accommodation, airfare rebate, transfers, or hotel terms while the offer is unresolved.
+- any hotel, airfare-rebate, transfer, breakfast, shuttle, eligibility, or reimbursement term beyond the confirmed July 14 offer.
 
 ## Safe answer for timing
 

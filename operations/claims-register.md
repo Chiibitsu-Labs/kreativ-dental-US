@@ -11,6 +11,8 @@ Public marketing must use evidence, current wording, and appropriate conditions.
 | USA-based patient-relations support is available | Approved | Current USA contact materials |
 | Final treatment decisions require clinical examination | Required | Include whenever discussing preliminary plans |
 | David can share his own experience | Approved with accuracy | First-person statements only; do not generalize his result |
+| Current USA patient offer | Approved with conditions | Three partner-hotel nights plus USD $350 airfare rebate; state the USD $3,000 minimum, treatment-completion requirement, availability, and booking conditions |
+| Complimentary consultation and diagnostic X-ray | Approved as separate support | Do not describe these as part of the three-night/airfare promotion |
 
 ## Requires substantiation and approval before public use
 
@@ -26,7 +28,6 @@ Public marketing must use evidence, current wording, and appropriate conditions.
 | Guarantees and warranty terms | Pending | Current written policy and exclusions |
 | Tax deductibility | Pending | Current qualified US tax/legal review; never individualized advice |
 | Only clinic with an airport kiosk or similar exclusivity | Pending | Verifiable current evidence |
-| Specific patient offer | Conflict | One approved current offer and terms |
 
 ## Prohibited
 

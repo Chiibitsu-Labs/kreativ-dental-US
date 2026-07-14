@@ -22,6 +22,9 @@
     "updated_at": { "type": "string", "format": "date-time" },
     "name": { "type": "string", "maxLength": 200 },
     "preferred_contact": { "type": "string", "maxLength": 320 },
+    "email": { "type": ["string", "null"], "format": "email", "maxLength": 320 },
+    "telephone": { "type": ["string", "null"], "maxLength": 50 },
+    "patient_city": { "type": ["string", "null"], "maxLength": 100 },
     "patient_state": { "type": "string", "minLength": 2, "maxLength": 50 },
     "source_agent": { "type": "string", "const": "David Lee" },
     "source_channel": {
@@ -48,7 +51,7 @@
     "consent_recorded_at": { "type": ["string", "null"], "format": "date-time" },
     "stage": {
       "type": "string",
-      "enum": ["NEW", "CONTACTED", "INTERESTED", "QUALIFIED", "HANDOFF_READY", "HANDOFF_SENT", "ACKNOWLEDGED", "RECORDS_REQUESTED", "CLINIC_REVIEW", "CONSULTATION_OFFERED", "BOOKED", "TRAVELLING", "TREATMENT_STARTED", "COMPLETED", "NURTURE", "CLOSED_LOST", "ATTRIBUTION_REVIEW"]
+      "enum": ["NEW", "CONTACTED", "INTERESTED", "QUALIFIED", "HANDOFF_READY", "HANDOFF_SENT", "ACKNOWLEDGED", "CRM_ENTERED", "RECORDS_REQUESTED", "CLINIC_REVIEW", "CONSULTATION_OFFERED", "BOOKED", "TRAVELLING", "TREATMENT_STARTED", "COMPLETED", "NURTURE", "CLOSED_LOST", "ATTRIBUTION_REVIEW"]
     },
     "priority": { "type": "string", "enum": ["HIGH", "MEDIUM", "NURTURE"] },
     "next_action": { "type": "string", "minLength": 1, "maxLength": 500 },
@@ -61,6 +64,8 @@
       "type": "string",
       "enum": ["UNKNOWN", "PENDING", "ELIGIBLE", "PAID", "DISPUTED", "NOT_ELIGIBLE"]
     },
+    "commission_rate": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "commission_basis": { "type": ["string", "null"], "maxLength": 200 },
     "non_clinical_notes": { "type": "string", "maxLength": 2000 }
   },
   "allOf": [

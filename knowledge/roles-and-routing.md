@@ -7,6 +7,7 @@
 - Local agent for Texas, Ohio, and Indiana.
 - Primary relationship owner for prospects he attracts.
 - Best used for trust, personal experience, reassurance, and non-clinical preparation.
+- Should remain involved after handoff and be informed of meaningful developments when the patient is comfortable with this.
 - Should focus his time on qualified conversations rather than administration.
 
 ## Chii / Chiibitsu Labs
@@ -22,10 +23,12 @@
 `CONFIRMED`
 
 - USA Patient Relations Managers / National Agents.
+- Receive qualified patient introductions and enter them into the Kreativ Dental CRM.
+- Coordinate the next steps with the Budapest clinic.
 - Help agents write responses and answer patient questions.
 - Can join coordinated three-way conversations.
-- Receive patient records through the USA channel and forward material to the Budapest dental team for review.
-- Own the USA-side clinical/scheduling escalation route in the supplied materials.
+- Receive patient records through the official USA channel and forward appropriate material to the Budapest dental team for review.
+- Manage clinic coordination and keep David informed of meaningful developments for patients he introduces.
 
 ## Budapest dental team
 
@@ -56,16 +59,17 @@
 | General KB answer | David Copilot or Chii |
 | Lead qualification | Chii / Mission Control |
 | Response drafting | Chii using the response playbook |
-| X-rays or dental records | Patient sends directly to `usa@kreativdentalclinic.eu` |
+| Qualified lead and clinic CRM entry | Craig and Bronwyn |
+| X-rays, photographs, or treatment plans | Patient sends directly through `usa@kreativdentalclinic.eu` |
 | Clinical question | Craig/Bronwyn and Budapest dental team |
 | Appointment or travel coordination | Craig/Bronwyn / USA team |
 | Website or state landing page | Peter |
 | Clinic-managed Facebook campaign | Halldor / marketing team |
-| Current offer approval | Bronwyn/Craig or clinic owner responsible for the offer |
-| Out-of-state ownership or commission | Bronwyn/Craig, with David retained as source agent in Mission Control |
+| Current approved offer | Use the July 14 terms; route exceptions to Craig/Bronwyn |
+| Out-of-state lead | Craig/Bronwyn, with David retained as original source and sharing handled under the applicable arrangement |
 
 ## Relationship after handoff
 
-`WORKING_RULE`
+`CONFIRMED`
 
-David remains the relationship owner; the USA team becomes the operational and clinical-coordination owner. Keep David copied on non-clinical correspondence when the patient has consented. Clinical files and sensitive details should remain between the patient and the official USA/clinic channel.
+David should remain involved with patients he introduces. Craig and Bronwyn become the clinic-coordination owners and will keep him informed of meaningful developments. Keep David copied on relevant communication when appropriate, when the patient is comfortable with this, and when no private clinical discussion requires a narrower audience.

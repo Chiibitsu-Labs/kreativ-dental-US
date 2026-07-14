@@ -7,6 +7,14 @@
 
 # Never commit patient or private source material
 raw/
+# Explicitly approved, non-patient, agent-only source documents
+!sources/raw/
+!sources/raw/agent-only/
+!sources/raw/agent-only/README.md
+!sources/raw/agent-only/Kreativ_Dental_Agent_Education_Watermarked_USA_Corrected_Phone.pdf
+!sources/raw/agent-only/Kreativ_Dental_Agent_Education_Watermarked_USA_Corrected_Phone.txt
+!sources/raw/agent-only/Kreativ_Dental_USA_Agent_Marketing_Guide.pdf
+!sources/raw/agent-only/Kreativ_Dental_USA_Agent_Marketing_Guide.txt
 private/
 patient-data/
 medical-records/
