@@ -20,7 +20,7 @@ The person does not need to have records before being considered interested. Rec
 
 ## 4. USA-team introduction
 
-Introduce a genuinely interested prospect to Craig/Bronwyn through `usa@kreativdentalclinic.eu`.
+With the patient's consent, introduce a qualified prospect to Craig/Bronwyn through `usa@kreativdentalclinic.eu` using the confirmed minimum handoff fields. Craig and Bronwyn enter the patient into the Kreativ Dental CRM and coordinate next steps with Budapest.
 
 Bring them in earlier if the conversation reaches:
 
@@ -50,7 +50,7 @@ Some treatment can require healing periods and return visits. Agents must not pr
 
 ## 9. Follow-up and relationship
 
-The USA team and clinic coordinate treatment-related follow-up. David remains available as the person's relationship contact without becoming the clinical decision-maker.
+The USA team and clinic coordinate treatment-related follow-up. Craig and Bronwyn keep David informed of meaningful developments when appropriate and when the patient is comfortable with this. David remains available as the person's relationship contact without becoming the clinical decision-maker.
 
 ## Stage ownership
 
@@ -58,7 +58,7 @@ The USA team and clinic coordinate treatment-related follow-up. David remains av
 |---|---|---|
 | Awareness and first contact | David / Chii | Lead relationship |
 | Qualification | David / Chii | Listen and gather context |
-| Handoff | David / Chii | Introduce and remain copied with consent |
+| Handoff and clinic CRM entry | David / Chii, then Craig/Bronwyn | Introduce, preserve source credit, and remain copied with consent |
 | Records and clinical review | USA team / Budapest team | Support, do not interpret |
 | Scheduling and travel coordination | USA team | Reassure and stay available |
 | Treatment | Budapest team | Relationship support only |

@@ -8,8 +8,10 @@ Purpose: give David a simple place to ask questions, prepare for calls, draft re
 
 - `README.md`
 - everything under `knowledge/`
+- `sources/raw/agent-only/` only in an access-controlled project for authorized agents
 - `playbooks/lead-intake.md`
 - `playbooks/bronwyn-response-playbook.md`
+- `playbooks/winning-response-patterns.md`
 - `playbooks/handoff.md`
 - `operations/pipeline-and-attribution.md`
 - `operations/open-decisions.md`
@@ -27,7 +29,7 @@ Use the complete contents of `ai/david-copilot-instructions.md` as the project's
 - `/reply [paste a sanitized message or summary]`
 - `/handoff [paste the operational lead summary]`
 
-Do not paste raw patient records or clinical images into the project.
+Do not paste raw patient records or clinical images into the project. The agent-only manuals may be included for retrieval only when project access is restricted to authorized agents.
 
 ## Project B - Kreativ Operator
 
@@ -55,7 +57,9 @@ Run every scenario in `ai/test-cases.md`. The project is ready only when it:
 - refuses diagnosis and clinical interpretation;
 - preserves David's source attribution;
 - handles out-of-state leads without claiming territory;
-- refuses to publish the conflicting offer;
+- states the approved USA offer with its exact benefits and conditions;
+- routes qualified leads to Craig and Bronwyn for clinic CRM entry;
+- preserves out-of-state source credit without inventing commission-sharing mechanics;
 - cites the correct KB section;
 - produces concise, usable answers.
 

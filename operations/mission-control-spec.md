@@ -12,7 +12,7 @@ Yes, David should have his own platform. It should be an operational layer aroun
 
 - **David:** answer questions, see priority leads, prepare for conversations, and check relationship status.
 - **Chii:** operate leads, draft responses, manage content, update the KB, and report ROI.
-- **USA team (optional lightweight access):** acknowledge handoffs and update a non-clinical stage.
+- **Craig/Bronwyn / USA team (optional lightweight access):** enter qualified leads into the clinic CRM, acknowledge handoffs, and update a non-clinical stage.
 
 ## MVP modules
 
@@ -42,8 +42,9 @@ Kanban or compact list using the stages in [pipeline and attribution](pipeline-a
 - generate lead ID;
 - produce the official handoff email;
 - preserve David as source agent;
+- route the qualified lead to Craig and Bronwyn for clinic CRM entry;
 - send patient records to the official USA email, not Mission Control;
-- track acknowledgement and external CRM ID.
+- track acknowledgement, CRM-entry confirmation, and external CRM ID.
 
 ### 5. Ask the KB
 
@@ -97,11 +98,13 @@ If a later version accepts medical records, it becomes a materially different pr
 
 ## Status synchronization
 
+Craig and Bronwyn have confirmed that they enter qualified patients into the clinic CRM and will keep David informed of meaningful developments. Mission Control therefore tracks David's relationship and follow-up layer rather than attempting to replace the clinic CRM.
+
 Use the simplest path first:
 
-1. **Now:** handoff email includes the lead ID and asks the USA team to reply with a simple stage.
-2. **Next:** a private one-click status form for Bronwyn/Craig that updates only stage, next action, and external CRM ID.
-3. **Later:** integrate with the clinic CRM through an approved API, webhook, or scheduled export if available.
+1. **Now:** handoff email includes the lead ID, routes the qualified patient to Craig and Bronwyn, and asks for acknowledgement when clinic CRM entry is complete.
+2. **Next:** agree which meaningful non-clinical stages they will share and whether updates arrive by email or a private one-click form.
+3. **Later:** integrate with the clinic CRM through an approved API, webhook, limited view, or scheduled export if available.
 
 The system remains useful even without integration because it owns David's relationship workflow and follow-up commitments.
 

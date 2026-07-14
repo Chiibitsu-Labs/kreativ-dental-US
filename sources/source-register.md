@@ -8,6 +8,25 @@ When sources disagree, prefer the source closest to the responsible owner, the m
 
 ## Primary supplied sources
 
+### Direct email clarification: qualified-lead handoff and approved offer
+
+- Date: July 14, 2026
+- From: Bronwyn and Craig, Kreativ Dental USA
+- Authority: high for the specific current operating questions answered
+- Supports: qualified-lead minimum fields; Craig/Bronwyn CRM entry and Budapest coordination; David's continuing involvement and meaningful updates; out-of-state source credit and applicable commission sharing; exact approved offer and conditions; consultation/X-ray separate from the offer
+- Open mechanics: external CRM ID/acknowledgement; status-update method; when the earlier 5% applies versus another sharing arrangement; commission basis/timing; detailed hotel and airfare-rebate conditions
+- Style note: the email appears polished or AI-assisted, but authority comes from the responsible owners sending it as their written clarification
+- Privacy: retain the dated operational facts in the KB; do not commit the private email thread
+
+### Direct email clarification: current USA offer, CRM entry, and out-of-state rate
+
+- Date: July 13, 2026
+- From: Bronwyn
+- Authority: high for the specific questions answered; superseded or narrowed by the July 14 formal clarification where wording differs
+- Supports: USD $3,000 threshold; all leads sent to Bronwyn for CRM entry; specific statement that David receives 5% from out-of-state dental patients
+- Narrowed by July 14: the approved public promotion is three hotel nights plus USD $350 airfare rebate; consultation/X-ray are separate; other travel support is not bundled into the promotion without separate confirmation
+- Privacy: do not commit the private email thread
+
 ### Direct email: "This information is for you and David"
 
 - Date: July 12, 2026
@@ -21,7 +40,8 @@ When sources disagree, prefer the source closest to the responsible owner, the m
 - Date supplied: July 2026
 - Authority: official guide, but older directions can be superseded
 - Supports: agent role, early USA-team collaboration, three-way calls, local awareness methods, non-clinical boundaries, one version of the USA offer
-- Conflict: local advertising funds and offer terms require current confirmation
+- Preservation: original PDF plus searchable text snapshot retained under `sources/raw/agent-only/`; PDF SHA-256 recorded there
+- Conflict: the July 12 advertising-budget direction and July 14 exact offer clarification override the guide where they differ
 
 ### "Kreativ Dental Agent Education" training manual
 
@@ -29,6 +49,7 @@ When sources disagree, prefer the source closest to the responsible owner, the m
 - Authority: official agent-only training reference
 - Supports: golden rule, treatment-plan boundaries, record review, provisional plans, travel/treatment explanations, CRM naming caution, response-writing process
 - Restriction: marked for agents only; do not share the raw manual with prospects
+- Preservation: original PDF plus searchable text snapshot retained under `sources/raw/agent-only/`; PDF SHA-256 recorded there
 - Quality note: some claims and later sections require verification or completion
 
 ### "What to do next!" direct agent email
@@ -78,14 +99,14 @@ When sources disagree, prefer the source closest to the responsible owner, the m
 - David's territory is Texas, Ohio, and Indiana.
 - David remains involved after handoff because the relationship originates with him.
 - Internal content cadence may use four useful/fun posts plus one promotional post and adapt to the US market.
-- Current offer must be confirmed before publication.
+- The July 14, 2026 written clarification is the current authority for the approved USA offer, qualified-lead handoff, CRM-entry owners, relationship continuity, and out-of-state source credit.
 - Build the operational KB first, then use it as the foundation for Mission Control.
 
 ## Missing authoritative sources
 
 - signed David agent contract;
-- CRM field/routing documentation;
-- current approved USA offer sheet;
-- current commission and out-of-state attribution policy;
+- CRM ID, duplicate handling, acknowledgement, and status-routing documentation;
+- commission calculation, applicability, sharing, payment, refund, and duplicate-lead rules;
+- partner-hotel booking and airfare-rebate implementation details;
 - approved state website/Facebook/contact asset list;
 - current claim substantiation pack.

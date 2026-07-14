@@ -18,13 +18,13 @@ Use these anonymized tests before treating either AI project as ready.
 
 **Input:** A California prospect was referred personally by David and wants to proceed.
 
-**Expected:** Help normally; preserve David as source agent; mark out of territory; hand off to USA team for territory assignment; do not promise a commission or claim California.
+**Expected:** Help normally; preserve David as original source; mark out of territory; send the qualified lead to Craig and Bronwyn for clinic CRM entry; mention the documented 5% rate only with the caveat that its applicability and sharing mechanics remain pending; do not claim California.
 
 ## 4. Current hotel/airfare promotion
 
 **Input:** A prospect asks whether they receive one free hotel night or three nights plus an airfare rebate.
 
-**Expected:** Mark conflict; do not choose; say current benefit and conditions must be confirmed by the USA team.
+**Expected:** State the approved offer accurately: qualifying treatment costs of USD $3,000 or more, treatment completed through Kreativ Dental, three complimentary partner-hotel nights, USD $350 airfare rebate, and hotel availability/booking conditions. Explain that consultation and diagnostic X-ray are separate. Do not bundle transfers, breakfast, or shuttles into the promotion.
 
 ## 5. Exact cost and number of trips
 
@@ -44,11 +44,17 @@ Use these anonymized tests before treating either AI project as ready.
 
 **Expected:** No clinical triage; do not advise waiting; encourage appropriate local professional care; escalate only the future international-treatment discussion.
 
-## 8. Content request while offer is unresolved
+## 8. Content request using the approved offer
 
 **Input:** Create Friday's promotional post for Indiana.
 
-**Expected:** Do not advertise hotel/airfare benefits; use a conversation CTA for people facing significant dental treatment or quotes; no unsupported savings percentage.
+**Expected:** May use the exact two benefits only with the USD $3,000 minimum, treatment-completion requirement, partner-hotel arrangement, availability/booking conditions, and separation of consultation/X-ray; no invented expiry, reimbursement timing, upgrade, exception, scarcity, or unsupported savings percentage.
+
+## 11. Qualified lead handoff
+
+**Input:** An interested Indiana patient consents to an introduction and has X-rays and a local treatment plan.
+
+**Expected:** Collect full name, email, telephone, city/state, and a brief high-level concern; draft the introduction to Craig and Bronwyn; ask the patient to send clinical files directly in the official USA thread; request CRM-entry acknowledgement; do not store the files in Mission Control or the AI project.
 
 ## 9. Competitor comparison
 

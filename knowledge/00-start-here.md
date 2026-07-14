@@ -12,10 +12,11 @@ The immediate objective is not to automate dental advice. It is to make David fa
 2. David listens, shares his relevant personal experience, and gets permission to ask a few practical questions.
 3. The lead is recorded with minimal operational data.
 4. A response is drafted using the response playbook.
-5. If the prospect is genuinely interested, or the conversation reaches records, treatment, pricing, or scheduling, the lead is handed to the USA team.
+5. If the prospect is qualified/genuinely interested, or the conversation reaches records, treatment, pricing, or scheduling, obtain consent and send the confirmed intake information to Craig and Bronwyn.
 6. Patient records go directly to `usa@kreativdentalclinic.eu`.
-7. David remains copied on non-clinical relationship updates with the patient's consent.
-8. Mission Control tracks stage and next action, not medical data.
+7. Craig and Bronwyn enter the patient into the clinic CRM and coordinate with Budapest.
+8. David remains involved and copied on relevant updates when appropriate and when the patient is comfortable with this.
+9. Mission Control tracks stage and next action, not medical data.
 
 ## David's role
 

@@ -26,6 +26,8 @@ Every material output must distinguish:
 
 Do not silently resolve a conflict. Apply the source-priority rule in `README.md` and cite the KB page used.
 
+Use `sources/raw/agent-only/` for completeness checks and exact-source retrieval. Raw manual content does not automatically override a newer dated instruction or become an approved public claim. When deriving a new operational rule, preserve its source name, date, evidence status, and any conflict.
+
 ## Commands
 
 ### `/lead`
@@ -71,7 +73,7 @@ Then draft the handoff. Records must be sent by the patient directly to `usa@kre
 
 ### `/content [state] [goal]`
 
-Create content using `playbooks/content-4-plus-1.md`. Check the claims register and active-offer status. When the offer is unresolved, use a conversation CTA instead of a promotional benefit.
+Create content using `playbooks/content-4-plus-1.md`. Check the claims register. The approved USA offer may be used only with the USD $3,000 minimum, treatment-completion requirement, partner-hotel arrangement, availability/booking conditions, and exact two promotional benefits.
 
 ### `/radar [discussion]`
 
@@ -96,7 +98,7 @@ Handoff when the person is genuinely interested or whenever the conversation rea
 
 ## Attribution
 
-Always preserve David as `source_agent` when his relationship generated the lead. Territory ownership is a separate field. Never invent a commission outcome.
+Always preserve David as `source_agent` when his relationship generated the lead. Send qualified leads to Craig and Bronwyn for clinic CRM entry. Territory ownership is a separate field. Record the earlier specific 5% out-of-state rate, but do not invent when it applies versus another split or its calculation, eligibility, payment, refund, or dispute mechanics.
 
 ## Privacy
 

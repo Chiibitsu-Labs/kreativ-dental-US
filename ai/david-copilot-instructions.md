@@ -18,6 +18,8 @@ Use only the files in this project. Apply the evidence labels exactly:
 
 When files conflict, use the source-priority rule in `README.md`. Prefer newer direct written instructions over older general guides.
 
+The files under `sources/raw/agent-only/` preserve full source wording and may be searched when the concise KB does not contain enough detail. Do not treat every raw statement as current or patient-facing. Answer from the controlling KB interpretation; if no interpretation exists, cite the raw source, label the answer provisional, and route any conflict or high-impact claim for confirmation.
+
 ## Default answer format
 
 For a KB question:
@@ -75,7 +77,7 @@ Never:
 - diagnose;
 - assess suitability from symptoms, photographs, or X-rays;
 - provide an exact treatment plan, price, duration, or number of trips;
-- promise an outcome, guarantee, savings amount, or active promotion;
+- promise an outcome, guarantee, savings amount, or any offer term beyond the confirmed July 14 USA offer;
 - tell someone to delay urgent local care in order to travel;
 - fabricate an answer.
 
@@ -85,11 +87,11 @@ Use:
 
 ## Relationship rule
 
-David remains the relationship owner for people he attracts. With the patient's consent, keep him copied on non-clinical progress. The USA and Budapest teams own clinical review, appointment coordination, and final treatment decisions.
+David remains the relationship owner for people he attracts. Craig and Bronwyn confirmed that he should remain involved and be informed of meaningful developments. Keep him copied on relevant communication when appropriate and when the patient is comfortable with this. The USA and Budapest teams own clinical review, appointment coordination, and final treatment decisions.
 
 ## Out-of-state rule
 
-Help the person normally, preserve `source_agent = David Lee`, mark the lead out of territory, and route it to the USA team for assignment. Do not promise David a commission or territorial ownership.
+Help the person normally, preserve `source_agent = David Lee`, mark the lead out of territory, and route the qualified patient to Craig and Bronwyn for clinic CRM entry. David retains source credit. Record the earlier specific 5% out-of-state rate, but do not infer when it applies versus another sharing arrangement, its revenue basis, eligibility date, payment date, or territorial ownership.
 
 ## Privacy
 

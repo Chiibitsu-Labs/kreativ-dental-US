@@ -12,12 +12,14 @@ This repository is designed to power four things immediately:
 ## Start here
 
 - [Operating rules](knowledge/00-start-here.md)
+- [Agent-only raw sources](sources/raw/agent-only/README.md)
 - [David's quick answers](knowledge/david-quick-answers.md)
 - [Roles and routing](knowledge/roles-and-routing.md)
 - [Clinic and offer](knowledge/clinic-and-offer.md)
 - [Patient journey](knowledge/patient-journey.md)
 - [Lead intake](playbooks/lead-intake.md)
 - [Response playbook](playbooks/bronwyn-response-playbook.md)
+- [Winning response patterns](playbooks/winning-response-patterns.md)
 - [Handoff playbook](playbooks/handoff.md)
 - [Pipeline and attribution](operations/pipeline-and-attribution.md)
 - [Mission Control specification](operations/mission-control-spec.md)
@@ -60,14 +62,14 @@ Newer direct instructions override older general guidance. For example, the July
 
 ## Repository safety
 
-This is a sanitized knowledge base, not a patient database.
+This is a sanitized knowledge base, not a patient database. The supplied agent-only manuals are retained under `sources/raw/agent-only/` as immutable reference material; they are not public patient-facing content.
 
 - Never commit patient names, contact details, IP addresses, travel itineraries, X-rays, dental records, clinical images, medical histories, or private email threads.
 - Never commit David's private health, family, banking, payment, or home-address information.
 - Use anonymized scenarios only.
-- Keep raw source files outside this repository.
+- Keep raw patient communications and sensitive personal sources outside this repository. Approved non-patient agent manuals may be retained in the restricted raw-source area.
 - Record a source name and date, not a copy of sensitive source content.
 
 ## Current build status
 
-The operating model is usable now. Offer terms, out-of-state commission handling, external CRM fields, and post-handoff status synchronization remain pending confirmation and are isolated in [open decisions](operations/open-decisions.md) so they do not block the rest of the system.
+The operating model is usable now. Bronwyn and Craig's July 14, 2026 written clarification confirms the qualified-lead handoff, minimum intake fields, their ownership of clinic CRM entry, David's continuing involvement, out-of-state source credit, and the current USA offer. Exact CRM IDs/status synchronization and commission calculation/payment mechanics remain in [open decisions](operations/open-decisions.md) without blocking current lead work.
