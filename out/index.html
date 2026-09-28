@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kreativ Dental Referral Network — USA &amp; Canada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1E4E79;          /* logo navy */
+    --navy-deep:#16395A;
+    --btn1:#3FA9DC;          /* button gradient */
+    --btn2:#1C6FAF;
+    --ink:#2F3A44;           /* headline near-black */
+    --gray:#6B7680;          /* body gray */
+    --gray-lt:#8C9196;
+    --pale:#F2F7FB;
+    --line:#E4EAEF;
+    --white:#FFFFFF;
+    --radius:12px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'DM Sans','Segoe UI',Helvetica,Arial,sans-serif;font-weight:300;color:var(--gray);background:var(--white);font-size:16.5px;line-height:1.75;}
+  h1,h2,h3,.serif{font-family:'Cormorant Garamond',Georgia,serif;color:var(--ink);font-weight:500;}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 26px;}
+
+  nav{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 0;}
+  .logo{font-family:'Cormorant Garamond',serif;font-size:23px;color:var(--navy);text-decoration:none;letter-spacing:.6px;font-weight:600;}
+  .logo small{display:block;font-family:'DM Sans',sans-serif;font-size:9.5px;font-weight:500;letter-spacing:3.5px;text-transform:uppercase;color:var(--navy);margin-top:-4px;}
+  .nav-links{display:flex;gap:30px;font-family:'Cormorant Garamond',serif;font-size:18px;}
+  .nav-links a{color:var(--ink);text-decoration:none;}
+  .nav-links a:hover{color:var(--navy);text-decoration:underline;text-underline-offset:5px;}
+  @media(max-width:760px){.nav-links{display:none;}}
+
+  .pill{display:inline-block;background:linear-gradient(90deg,var(--btn1),var(--btn2));color:#fff;font-family:'DM Sans',sans-serif;font-weight:500;font-size:15px;letter-spacing:.6px;padding:15px 36px;border-radius:999px;text-decoration:none;box-shadow:0 6px 18px rgba(28,111,175,.28);transition:.15s;border:none;cursor:pointer;}
+  .pill:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(28,111,175,.36);}
+  .pill.quiet{background:var(--white);color:var(--navy);border:1px solid #BFD6E7;box-shadow:none;margin-left:12px;}
+
+  .hero{padding:88px 0 84px;text-align:center;background:linear-gradient(180deg,#FBFDFE 0%,var(--white) 100%);}
+  .eyebrow{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;letter-spacing:3.5px;text-transform:uppercase;color:var(--gray-lt);margin-bottom:26px;}
+  .hero h1{font-size:clamp(38px,5.6vw,60px);line-height:1.12;max-width:860px;margin:0 auto 22px;}
+  .hero h1 em{font-style:italic;color:var(--navy);}
+  .hero p{font-size:18.5px;max-width:660px;margin:0 auto 38px;}
+  .proof{margin-top:30px;font-size:13px;color:var(--gray-lt);letter-spacing:.5px;}
+
+  section{padding:78px 0;}
+  .k{font-family:'DM Sans',sans-serif;font-size:11.5px;font-weight:500;letter-spacing:3.5px;text-transform:uppercase;color:var(--gray-lt);margin-bottom:14px;}
+  h2{font-size:clamp(32px,4vw,44px);line-height:1.15;margin-bottom:18px;}
+  .lede{font-size:18px;max-width:700px;}
+
+  .netband{background:var(--pale);}
+  .net-line{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:30px 34px;margin-top:32px;font-size:17px;box-shadow:0 2px 10px rgba(30,78,121,.05);}
+  .net-line strong{color:var(--ink);font-weight:500;}
+
+  .track-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:46px;}
+  @media(max-width:820px){.track-grid{grid-template-columns:1fr;}}
+  .track{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:42px 38px;display:flex;flex-direction:column;box-shadow:0 3px 14px rgba(30,78,121,.06);}
+  .track .tag{align-self:flex-start;font-family:'DM Sans',sans-serif;font-size:10.5px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--navy);border:1px solid #BFD6E7;border-radius:999px;padding:6px 16px;margin-bottom:22px;}
+  .track h3{font-size:30px;margin-bottom:4px;}
+  .track .for{font-size:14.5px;font-style:italic;margin-bottom:24px;color:var(--gray-lt);}
+  .track .payline{font-family:'Cormorant Garamond',serif;font-size:42px;font-weight:600;color:var(--navy);line-height:1.1;margin-bottom:4px;}
+  .track .paysub{font-size:14px;margin-bottom:26px;}
+  .track ol{list-style:none;counter-reset:s;margin-bottom:26px;}
+  .track ol li{counter-increment:s;position:relative;padding-left:44px;margin-bottom:16px;font-size:15px;}
+  .track ol li::before{content:counter(s);font-family:'Cormorant Garamond',serif;position:absolute;left:0;top:-2px;width:28px;height:28px;border-radius:50%;border:1px solid #BFD6E7;color:var(--navy);font-weight:600;font-size:16px;display:flex;align-items:center;justify-content:center;}
+  .track li strong{color:var(--ink);font-weight:500;}
+  .track .fine{font-size:12.5px;color:var(--gray-lt);border-top:1px solid var(--line);padding-top:14px;margin-top:auto;}
+
+  /* AI DEMO */
+  .ai{background:linear-gradient(160deg,var(--navy-deep),var(--navy));color:#D7E6F2;}
+  .ai .k{color:#8FB4D2;}
+  .ai h2{color:#fff;}
+  .ai .lede{color:#C0D5E6;}
+  .tabs{display:flex;gap:10px;margin:40px 0 0;flex-wrap:wrap;}
+  .tabs button{font-family:'DM Sans',sans-serif;font-size:13.5px;font-weight:500;letter-spacing:.4px;padding:12px 24px;border-radius:999px;border:1px solid rgba(255,255,255,.35);background:transparent;color:#D7E6F2;cursor:pointer;transition:.14s;}
+  .tabs button.on{background:#fff;color:var(--navy);border-color:#fff;}
+  .panel{display:none;margin-top:26px;}
+  .panel.on{display:block;}
+  .tool{background:#fff;border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,.35);color:var(--gray);overflow:hidden;max-width:760px;}
+  .tool-head{background:var(--pale);border-bottom:1px solid var(--line);padding:14px 22px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;color:var(--navy);display:flex;align-items:center;gap:9px;}
+  .tool-head .dot{width:8px;height:8px;border-radius:50%;background:#57C46B;}
+  .tool-note{font-size:11.5px;color:var(--gray-lt);padding:10px 22px 14px;border-top:1px solid var(--line);}
+
+  .chat-log{height:300px;overflow-y:auto;padding:18px;display:flex;flex-direction:column;gap:10px;background:#FBFDFE;}
+  .msg{max-width:86%;padding:11px 15px;border-radius:13px;font-size:13.5px;line-height:1.6;}
+  .msg.bot{background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px;align-self:flex-start;}
+  .msg.user{background:linear-gradient(90deg,var(--btn1),var(--btn2));color:#fff;border-bottom-right-radius:4px;align-self:flex-end;}
+  .msg.bot .route{display:block;margin-top:8px;padding:8px 11px;background:#EAF6EC;border-radius:8px;font-size:12.5px;color:#2E7D3B;font-weight:500;font-family:'DM Sans',sans-serif;}
+  .chat-opts{padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px;background:#fff;border-top:1px solid var(--line);}
+  .chat-opts button{font-family:'DM Sans',sans-serif;font-size:12.5px;color:var(--navy);background:var(--pale);border:1px solid #C9DCEA;border-radius:999px;padding:8px 15px;cursor:pointer;transition:.12s;}
+  .chat-opts button:hover{background:var(--navy);color:#fff;}
+
+  .est-body{padding:22px;}
+  .est-row{display:grid;grid-template-columns:1fr 92px;gap:14px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px;}
+  .est-row:last-of-type{border-bottom:none;}
+  .est-row .nm{color:var(--ink);}
+  .est-row .rng{display:block;font-size:11.5px;color:var(--gray-lt);}
+  .qty{display:flex;align-items:center;gap:8px;justify-content:flex-end;}
+  .qty button{width:26px;height:26px;border-radius:50%;border:1px solid #C9DCEA;background:#fff;color:var(--navy);font-size:15px;cursor:pointer;line-height:1;}
+  .qty span{min-width:18px;text-align:center;font-weight:500;color:var(--ink);font-family:'DM Sans',sans-serif;}
+  .est-total{margin-top:16px;background:var(--pale);border-radius:12px;padding:18px 22px;display:flex;gap:26px;flex-wrap:wrap;align-items:baseline;}
+  .est-total .col small{display:block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gray-lt);font-family:'DM Sans',sans-serif;margin-bottom:2px;}
+  .est-total .col .v{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;color:var(--ink);}
+  .est-total .col.save .v{color:#2E7D3B;}
+
+  .tr-body{padding:26px 22px;}
+  .tr-input{display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+  .tr-input select,.tr-input input{font-family:'DM Sans',sans-serif;font-size:14px;padding:11px 14px;border:1px solid #C9DCEA;border-radius:8px;color:var(--ink);background:#fff;}
+  .tr-input input{width:90px;}
+  .tr-out{margin-top:18px;background:var(--pale);border-radius:12px;padding:20px 22px;font-size:15px;min-height:74px;}
+  .tr-out .big{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:600;color:var(--navy);}
+
+  .story-grid{display:grid;grid-template-columns:250px 1fr;gap:48px;align-items:start;margin-top:42px;}
+  @media(max-width:760px){.story-grid{grid-template-columns:1fr;}}
+  .portrait{background:var(--pale);border:1px solid var(--line);border-radius:var(--radius);aspect-ratio:3/4;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:22px;}
+  .portrait .circle{width:86px;height:86px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px;font-family:'Cormorant Garamond',serif;font-weight:600;margin-bottom:16px;}
+  .portrait .name{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--ink);font-weight:600;}
+  .portrait .role{font-size:12.5px;margin-top:4px;}
+  .portrait .note{font-size:11px;color:var(--gray-lt);margin-top:14px;font-style:italic;}
+  .story p{margin-bottom:16px;font-size:16px;}
+  blockquote{font-family:'Cormorant Garamond',serif;font-size:25px;font-style:italic;color:var(--navy);line-height:1.45;border-left:3px solid var(--btn1);padding:4px 0 4px 24px;margin:24px 0;}
+  .consent{font-size:13px;color:var(--gray-lt);}
+
+  .why{background:var(--pale);}
+  .perks{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px;}
+  @media(max-width:820px){.perks{grid-template-columns:1fr;}}
+  .perk{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:0 2px 8px rgba(30,78,121,.04);}
+  .perk h4{font-family:'Cormorant Garamond',serif;font-size:21px;color:var(--ink);font-weight:600;margin-bottom:6px;}
+  .perk p{font-size:14px;}
+
+  .final{text-align:center;padding:90px 0;}
+  .final h2{margin-bottom:14px;}
+  .final .lede{margin:0 auto 36px;}
+
+  footer{background:var(--navy-deep);color:#8FA9C2;font-size:12px;padding:32px 0;text-align:center;line-height:1.8;}
+  footer .wrap{max-width:840px;}
+  .demo-tag{position:fixed;top:12px;right:12px;background:linear-gradient(90deg,var(--btn1),var(--btn2));color:#fff;font-family:'DM Sans',sans-serif;font-size:10.5px;font-weight:500;letter-spacing:1.6px;padding:6px 14px;border-radius:999px;z-index:30;}
+
+  @media(max-width:640px){table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;} .wrap{padding:0 16px;}}
+</style>
+</head>
+<body>
+
+<div class="demo-tag">DEMO</div>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="logo" href="#">Kreativ Dental<small>Referral Network</small></a>
+    <div class="nav-links">
+      <a href="#tracks">Ambassadors</a>
+      <a href="#tracks">Refer &amp; Earn</a>
+      <a href="#ai">AI Concierge</a>
+      <a href="#story">Stories</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">United States &amp; Canada</div>
+    <h1>Anyone can open the door<br>to a <em>life-changing smile.</em></h1>
+    <p>Kreativ Dental has created smiles for more than 125,000 patients over 28 years in Budapest. Wherever you are, you can refer someone who needs help — the network routes them to their state's representative, and you're rewarded when their treatment is complete.</p>
+    <a class="pill" href="#tracks">Join the Network</a>
+    <a class="pill quiet" href="#ai">Try the AI Concierge</a>
+    <div class="proof">Be Kreativ and Smile!</div>
+  </div>
+</header>
+
+<section class="netband">
+  <div class="wrap">
+    <div class="k">How the Network Works</div>
+    <h2>One network, no borders</h2>
+    <p class="lede">Every patient is looked after by a real person who has been a Kreativ patient themselves — and where a state has no representative yet, Kreativ's national team carries them directly. Nobody is turned away for living in the wrong place.</p>
+    <div class="net-line">
+      <strong>You refer from anywhere. The network does the rest.</strong> Introduce someone in your own town or three states over — the introduction is logged the moment you make it, the right person picks it up, and you are credited and rewarded either way. If two of you helped the same person, the reward is shared. No borders on caring about someone.
+    </div>
+  </div>
+</section>
+
+<section id="tracks">
+  <div class="wrap">
+    <div class="k">Two Ways to Take Part</div>
+    <h2>Choose your path</h2>
+    <div class="track-grid">
+
+      <div class="track">
+        <div class="tag">For Completed Patients</div>
+        <h3>Smile Ambassador</h3>
+        <div class="for">You've completed your treatment at Kreativ Dental — you've lived it.</div>
+        <div class="payline">10% commission</div>
+        <div class="paysub">as an official Kreativ Dental agent, on completed treatments you bring in — cross-state referrals credited and split under company policy</div>
+        <ol>
+          <li><strong>Share your story.</strong> One relaxed 10-minute recorded conversation about your journey — you approve everything before it's used.</li>
+          <li><strong>Get appointed.</strong> Every Kreativ agent has experienced the clinic as a patient — your experience is your qualification.</li>
+          <li><strong>Guide your people.</strong> You speak from experience; the representatives and the clinic handle everything clinical.</li>
+        </ol>
+        <div class="fine">Agent appointments are made by the clinic. Commission allocation follows the Kreativ agent operational policy.</div>
+      </div>
+
+      <div class="track">
+        <div class="tag">For Everyone</div>
+        <h3>Referrer</h3>
+        <div class="for">No treatment history needed — you simply know someone who's been putting off dental care.</div>
+        <div class="payline">$300 thank-you</div>
+        <div class="paysub">for each person you connect with the network who goes on to complete treatment in Budapest</div>
+        <ol>
+          <li><strong>Make one introduction.</strong> Connect your friend — or send them to the concierge below. That's the whole job.</li>
+          <li><strong>We take it from there.</strong> Free consultation, travel help, treatment plan — handled by their state's representative and the clinic.</li>
+          <li><strong>Get thanked.</strong> When their treatment is complete, the reward is yours.</li>
+        </ol>
+        <div class="fine">Think trainers, gym owners, health coaches, pastors, senior-community leaders — people present at the moment someone decides to rebuild their health.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- AI DEMO -->
+<section class="ai" id="ai">
+  <div class="wrap">
+    <div class="k">The AI Layer — Live Demo</div>
+    <h2>A team member in every timezone</h2>
+    <p class="lede">Budapest is 6+ hours ahead of every American patient, and leads arrive at midnight. The network's AI answers instantly from the clinic's official materials, never guesses, and hands every person to the right human. Try all three tools.</p>
+
+    <div class="tabs">
+      <button class="on" data-p="p1">Concierge</button>
+      <button data-p="p2">Savings Estimator</button>
+      <button data-p="p3">Treatment-Plan Translator</button>
+    </div>
+
+    <div class="panel on" id="p1">
+      <div class="tool">
+        <div class="tool-head"><span class="dot"></span> Kreativ Network Concierge</div>
+        <div class="chat-log" id="log">
+          <div class="msg bot">Hi! I'm the Kreativ Dental network concierge. I can answer questions about treatment in Budapest and connect you with your state's representative. What would you like to know?</div>
+        </div>
+        <div class="chat-opts" id="opts"></div>
+        <div class="tool-note">Scripted preview. Live version answers only from official Kreativ agent education materials — when it doesn't know, it says so and asks the agent.</div>
+      </div>
+    </div>
+
+    <div class="panel" id="p2">
+      <div class="tool">
+        <div class="tool-head"><span class="dot"></span> Instant Savings Estimator</div>
+        <div class="est-body" id="est"></div>
+        <div class="tool-note">2026 estimate ranges from official Kreativ comparison data. Every plan is provisional until the free in-person consultation in Budapest — the official price list governs.</div>
+      </div>
+    </div>
+
+    <div class="panel" id="p3">
+      <div class="tool">
+        <div class="tool-head"><span class="dot"></span> Treatment-Plan Translator — US ↔ European tooth numbering</div>
+        <div class="tr-body">
+          <p style="font-size:14px;margin-bottom:16px;">Your U.S. dentist's plan says tooth <em>#30</em>. Your Kreativ plan says <em>46</em>. Same tooth — two numbering systems. Paste any tooth number:</p>
+          <div class="tr-input">
+            <select id="sys">
+              <option value="uni">US (Universal, 1–32)</option>
+              <option value="fdi">European (FDI, 11–48)</option>
+            </select>
+            <input id="tooth" type="text" placeholder="e.g. 30">
+            <button class="pill" style="padding:11px 26px;font-size:13.5px;" id="trbtn">Translate</button>
+          </div>
+          <div class="tr-out" id="trout">The live version reads a whole uploaded treatment plan and rewrites it in plain English — teeth, procedures, and timeline — so patients compare quotes with confidence.</div>
+        </div>
+        <div class="tool-note">Educational aid only — treatment decisions are made by the dentists in Budapest after clinical examination.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section id="story">
+  <div class="wrap">
+    <div class="k">Ambassador Stories</div>
+    <h2>Every story is told by the person who lived it.</h2>
+    <div class="story-grid">
+      <div class="portrait">
+        <div class="circle">★</div>
+        <div class="name">Your story here</div>
+        <div class="role">Smile Ambassador · completed patient</div>
+        <div class="note">[ vertical photo + "then &amp; now" life photos, with the ambassador's approval ]</div>
+      </div>
+      <div class="story">
+        <p>Each ambassador records one relaxed 10-minute conversation about their journey: what they were facing at home, why they chose Budapest, and what changed afterwards.</p>
+        <p>That conversation becomes their page, their posts and their clips ~ life transformation, never graphic dental imagery. Nothing is published until they have read and approved it.</p>
+        <p>The first ambassador stories will appear here once they are recorded and approved.</p>
+        <p class="consent">Every ambassador controls how much of their story is told, and how.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <div class="wrap">
+    <div class="k">What Your Friends Will Find</div>
+    <h2>Why people say yes to Budapest</h2>
+    <div class="perks">
+      <div class="perk"><h4>28 years, 125,000+ smiles</h4><p>Europe's most advanced purpose-built dental clinic, with its own laboratory — consultation to completion under one roof.</p></div>
+      <div class="perk"><h4>Savings up to 70%</h4><p>A recent real case: $43,353 quoted in the U.S. — $14,000 at Kreativ. ISO 9001:2015 certified care.</p></div>
+      <div class="perk"><h4>Travel made easy</h4><p>3 complimentary nights at the partner hotel and a $350 airfare rebate for treatment of $3,000 or more, plus airport pickup.</p></div>
+      <div class="perk"><h4>Free consultation</h4><p>No cost, no obligation — a personal examination by the dental team before any decision.</p></div>
+      <div class="perk"><h4>One of Europe's safest capitals</h4><p>Hungary ranks 17th on the Global Peace Index — among the most peaceful countries in the world.</p></div>
+      <div class="perk"><h4>A person beside you</h4><p>Your state's representative — a former patient — supports you from first question to your flight home.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Start with one conversation</h2>
+    <p class="lede">Ambassador or referrer — the first step is the same. The concierge connects you to your state's representative in seconds.</p>
+    <a class="pill" href="#ai">Talk to the Concierge</a>
+    <a class="pill quiet" href="mailto:chii@chiibitsu.com?subject=Kreativ%20Referral%20Network">Email the Program Team</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Kreativ Dental Clinic · 1141 Budapest, Vezér utca 100, Hungary · Be Kreativ and Smile!<br>
+    Any treatment plan discussed before an in-person examination is provisional and subject to the dentist's clinical assessment at the clinic. Ambassadors, referrers, and representatives do not provide clinical advice, guarantee outcomes, or quote final prices. Agent appointments are made by the clinic; commissions and referral credits follow the Kreativ agent operational policy. Rewards are paid upon a referred patient's completion of treatment; program terms subject to clinic confirmation. Special offers subject to qualifying treatment plans and availability.<br><br>
+    DEMO — internal preview only. Not a live Kreativ Dental page.
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* Tabs */
+  document.querySelectorAll('.tabs button').forEach(function(b){
+    b.onclick = function(){
+      document.querySelectorAll('.tabs button').forEach(function(x){x.classList.remove('on');});
+      document.querySelectorAll('.panel').forEach(function(x){x.classList.remove('on');});
+      b.classList.add('on');
+      document.getElementById(b.dataset.p).classList.add('on');
+    };
+  });
+
+  /* Concierge */
+  const log = document.getElementById('log');
+  const opts = document.getElementById('opts');
+  const QA = [
+    {q:"How much can I really save?",a:"Many patients save up to 70% compared with U.S. quotes — without lowering quality of care. A real recent case: 4 implants and 5 crowns quoted at $43,353 in the U.S. was completed at Kreativ for around $14,000. Your exact costs are confirmed after a free, no-obligation consultation in Budapest. Want a rough estimate? Try the Savings Estimator tab."},
+    {q:"Is it safe to get dental work abroad?",a:"Hungary ranks 17th safest country in the world on the Global Peace Index (Mexico, the main alternative, ranks 135th). Kreativ Dental is ISO 9001:2015 certified, holds the Treatment Abroad accreditation, and has treated international patients for 28 years."},
+    {q:"Who helps me in my state?",a:"I'll match you to the Kreativ representative for your state, and I've logged that you arrived through the ambassador network at 14:32 today, so whoever introduced you is credited automatically. If more than one person helped you get here, the reward is shared between them.",route:"✓ Matched to state representative · introduction logged 14:32 · credit assigned"},
+    {q:"What if my state has no representative?",a:"Then Kreativ's national team looks after you directly ~ your care doesn't wait for a map. Your introduction is still logged and still credited, and your state now counts toward where Kreativ appoints someone next.",route:"✓ No state agent · escalated to national team · credit still assigned"},
+    {q:"Can you tell me what treatment I need?",a:"That's one thing I'll never guess at — and neither will your representative. Only the dentists in Budapest can advise you after an examination. What I can do is help you prepare: I'll walk you through gathering a recent panoramic X-ray, photos, and a brief dental history so the clinic can give you an initial opinion before you ever book a flight."},
+    {q:"How do I refer a friend?",a:"Just introduce them to me or to their state's representative — that's the whole job. We handle the consultation, travel, and treatment from there. When their treatment is complete, you receive a $300 thank-you reward. If you've been a Kreativ patient yourself, ask about becoming a Smile Ambassador — that's a 10% commission path."}
+  ];
+  function addUser(t){const d=document.createElement('div');d.className='msg user';d.textContent=t;log.appendChild(d);log.scrollTop=log.scrollHeight;}
+  function typeBot(item){
+    const d=document.createElement('div');d.className='msg bot';log.appendChild(d);
+    let i=0;const t=setInterval(function(){
+      i+=3;d.textContent=item.a.slice(0,i);log.scrollTop=log.scrollHeight;
+      if(i>=item.a.length){clearInterval(t);d.textContent=item.a;
+        if(item.route){const r=document.createElement('span');r.className='route';r.textContent=item.route;d.appendChild(r);}
+        log.scrollTop=log.scrollHeight;}
+    },12);
+  }
+  QA.forEach(function(item){
+    const b=document.createElement('button');b.textContent=item.q;
+    b.onclick=function(){addUser(item.q);setTimeout(function(){typeBot(item);},350);};
+    opts.appendChild(b);
+  });
+
+  /* Estimator */
+  const PROC = [
+    {n:"Premium implant (implant only)",usLo:2500,usHi:7000,bpLo:900,bpHi:1800},
+    {n:"Zirconia crown (per tooth)",usLo:1100,usHi:3000,bpLo:450,bpHi:800},
+    {n:"Porcelain veneer (e.max)",usLo:1200,usHi:4000,bpLo:350,bpHi:700},
+    {n:"Root canal therapy",usLo:800,usHi:3000,bpLo:189,bpHi:500},
+    {n:"Complete denture (per arch)",usLo:1500,usHi:8000,bpLo:500,bpHi:1500},
+    {n:"Composite white filling",usLo:175,usHi:800,bpLo:94,bpHi:121}
+  ];
+  const qty = PROC.map(function(){return 0;});
+  const est = document.getElementById('est');
+  function money(x){return '$'+x.toLocaleString('en-US');}
+  function render(){
+    est.innerHTML='';
+    PROC.forEach(function(p,i){
+      const row=document.createElement('div');row.className='est-row';
+      row.innerHTML='<div class="nm">'+p.n+'<span class="rng">US '+money(p.usLo)+'–'+money(p.usHi)+' · Budapest '+money(p.bpLo)+'–'+money(p.bpHi)+'</span></div>';
+      const q=document.createElement('div');q.className='qty';
+      const m=document.createElement('button');m.textContent='−';
+      const s=document.createElement('span');s.textContent=qty[i];
+      const pl=document.createElement('button');pl.textContent='+';
+      m.onclick=function(){if(qty[i]>0){qty[i]--;render();}};
+      pl.onclick=function(){qty[i]++;render();};
+      q.appendChild(m);q.appendChild(s);q.appendChild(pl);
+      row.appendChild(q);est.appendChild(row);
+    });
+    let usLo=0,usHi=0,bpLo=0,bpHi=0;
+    PROC.forEach(function(p,i){usLo+=p.usLo*qty[i];usHi+=p.usHi*qty[i];bpLo+=p.bpLo*qty[i];bpHi+=p.bpHi*qty[i];});
+    const tot=document.createElement('div');tot.className='est-total';
+    if(usHi===0){
+      tot.innerHTML='<div style="font-size:14px;">Add procedures above to see a typical U.S. range vs. Budapest — and what stays in your pocket.</div>';
+    }else{
+      const svLo=usLo-bpHi, svHi=usHi-bpLo;
+      const pct=Math.round((1-((bpLo+bpHi)/2)/((usLo+usHi)/2))*100);
+      tot.innerHTML='<div class="col"><small>Typical U.S. quote</small><span class="v">'+money(usLo)+'–'+money(usHi)+'</span></div>'
+        +'<div class="col"><small>At Kreativ, Budapest</small><span class="v">'+money(bpLo)+'–'+money(bpHi)+'</span></div>'
+        +'<div class="col save"><small>You could keep</small><span class="v">'+money(Math.max(svLo,0))+'–'+money(svHi)+' (~'+pct+'%)</span></div>';
+    }
+    est.appendChild(tot);
+  }
+  render();
+
+  /* Translator */
+  const UNI2FDI=[18,17,16,15,14,13,12,11,21,22,23,24,25,26,27,28,38,37,36,35,34,33,32,31,41,42,43,44,45,46,47,48];
+  function toothName(fdi){
+    const q=Math.floor(fdi/10), p=fdi%10;
+    const quad={1:"upper right",2:"upper left",3:"lower left",4:"lower right"}[q];
+    const names={1:"central incisor",2:"lateral incisor",3:"canine",4:"first premolar",5:"second premolar",6:"first molar",7:"second molar",8:"third molar (wisdom tooth)"};
+    return quad+" "+names[p];
+  }
+  document.getElementById('trbtn').onclick=function(){
+    const sys=document.getElementById('sys').value;
+    const v=parseInt(document.getElementById('tooth').value,10);
+    const out=document.getElementById('trout');
+    if(sys==='uni'){
+      if(!(v>=1&&v<=32)){out.innerHTML='Please enter a US Universal number from 1 to 32.';return;}
+      const fdi=UNI2FDI[v-1];
+      out.innerHTML='<span class="big">US #'+v+' = European (FDI) '+fdi+'</span><br>That\'s your <strong>'+toothName(fdi)+'</strong>. Both plans are talking about the same tooth.';
+    }else{
+      const idx=UNI2FDI.indexOf(v);
+      if(idx===-1){out.innerHTML='Please enter a valid FDI number (11–18, 21–28, 31–38, 41–48).';return;}
+      out.innerHTML='<span class="big">European (FDI) '+v+' = US #'+(idx+1)+'</span><br>That\'s your <strong>'+toothName(v)+'</strong>. Both plans are talking about the same tooth.';
+    }
+  };
+})();
+</script>
+
+</body>
+</html>
