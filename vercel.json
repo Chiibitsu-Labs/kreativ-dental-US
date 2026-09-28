@@ -1,1 +1,1 @@
-{"rewrites":[{"source":"/demo","destination":"/index.html"},{"source":"/demo/","destination":"/index.html"},{"source":"/smile","destination":"/smile.html"},{"source":"/smile/","destination":"/smile.html"}]}
+{"outputDirectory":"out","rewrites":[{"source":"/demo","destination":"/index.html"},{"source":"/demo/","destination":"/index.html"},{"source":"/smile","destination":"/smile.html"},{"source":"/smile/","destination":"/smile.html"}]}
